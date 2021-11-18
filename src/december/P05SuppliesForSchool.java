@@ -32,12 +32,15 @@ public class P05SuppliesForSchool {
 
        // double totalNoDiscount = (pens *5.80) + (markers * 7.20) + (detergentLiters * 1.20);
         //double totalWithDiscount = totalNoDiscount - discountPercent * 1.0 / 100 * totalNoDiscount;
-       // System.out.println(totalWithDiscount);
+       // System.out.println(totalWithDiscount)
+        double penPrice = 5.80;
+        double markerPrice = 7.20;
+        double detergentPrice = 1.20;
 
+        double totalWithoutDiscount = (pens * penPrice) + (markers * markerPrice) + (detergentLiters*detergentPrice);
+        double totalWithDiscount = totalWithoutDiscount - (totalWithoutDiscount * discountPercent/100);
 
-
-
-
+        System.out.println(totalWithDiscount);
 
 
     }
