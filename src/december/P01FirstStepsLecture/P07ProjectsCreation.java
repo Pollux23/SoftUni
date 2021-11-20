@@ -8,8 +8,9 @@ public class P07ProjectsCreation {
 
         String name = scanner.nextLine();
         int projectNum = Integer.parseInt(scanner.nextLine());
+
         int allProjectsTime = projectNum * 3;
-        System.out.printf("The architect %s will need %d hours to complete %d project/s.");
+        System.out.printf("The architect %s will need %d hours to complete %d project/s.",name,allProjectsTime,projectNum);
 
 
 

@@ -1,4 +1,4 @@
-package zAugust;
+package zAugLec.zAugust;
 
 class ModulnoDelenie {
 
