@@ -57,6 +57,9 @@ public class P05ToyShop {
             System.out.printf("Yes! %.2f lv left.", totalProfit - excursionPrice);
         } else {
             System.out.printf("Not enough money! %.2f lv needed.", excursionPrice - totalProfit);
+
         }
+
+        System.out.println(totalProfit);
     }
 }
