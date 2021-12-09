@@ -1,4 +1,4 @@
-package december.P02Proverki_b_Ex;
+package december.P02ProverkiEx;
 
 import java.util.Scanner;
 
@@ -6,6 +6,7 @@ public class P05GodzillavsKong {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
+
         double budget = Double.parseDouble(scanner.nextLine());
         int people = Integer.parseInt(scanner.nextLine());
         double priceOneSuit = Double.parseDouble(scanner.nextLine());
@@ -27,7 +28,6 @@ public class P05GodzillavsKong {
             System.out.println("Not enough money!");
             System.out.printf("Wingard needs %.2f leva more.", diff);
         }
-
 
     }
 }

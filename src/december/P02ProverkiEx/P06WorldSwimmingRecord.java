@@ -1,4 +1,4 @@
-package december.P02Proverki_b_Ex;
+package december.P02ProverkiEx;
 
 import java.util.Scanner;
 
@@ -19,7 +19,7 @@ public class P06WorldSwimmingRecord {
         if (totalTimePlusResistance  < worldRecord) {
             System.out.printf("Yes, he succeeded! The new world record is %.2f seconds.", totalTimePlusResistance);
         }else{
-            System.out.printf("No, he failed! He was %.2f seconds slower", totalTimePlusResistance + worldRecord);
+            System.out.printf("No, he failed! He was %.2f seconds slower", totalTimePlusResistance - worldRecord);
         }
 
     }
