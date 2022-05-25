@@ -6,9 +6,9 @@ public class P04PrintandSum {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         //1. начало на интервала -> цяло число (вход)
-        int startNumber = Integer.parseInt(scanner.nextLine());
+        int startNumber = Integer.parseInt(scanner.next());
         //2. край на интервала -> цяло число (вход)
-        int endNumber = Integer.parseInt(scanner.nextLine());
+        int endNumber = Integer.parseInt(scanner.next());
         //3. отпечатам числата [начало; край]
         //повтаряме: печатаме числото
         //начало: startNumber
