@@ -20,5 +20,7 @@ public class demo {
         double maxValuee = Double.MAX_VALUE;
         System.out.println( 8 % 2.5);
 
+        System.out.println("\"Java\"");
+
     }
 }
