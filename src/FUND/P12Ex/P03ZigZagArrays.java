@@ -1,22 +1,32 @@
 package FUND.P12Ex;
 
+import java.lang.reflect.Array;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class P03ZigZagArrays {
     public static void main(String[] args) {
 
-      String[] imena = new String [5];
+        Scanner scanner = new Scanner(System.in);
 
-      imena [0] = "spas";
-      imena [1] = "mitko";
-      imena [2] = "niki";
-      imena [3] = "ivan";
-      imena [4] = "stavri";
-
-        for (int i = imena.length -1; i >= 0; i--) {
-            System.out.println(imena[i]);
+        int n = Integer.parseInt(scanner.nextLine());
+        String[] firstArr = new String[n];
+        String[] secondArr = new String[n];
+        for (int i = 1; i <= n; i++) {
+            String[] line = scanner.nextLine().split(" ");
+            if (i % 2 != 0) {
+                firstArr[i - 1] = line[0];
+                secondArr[i - 1] = line[1];
+            } else {
+                firstArr[i - 1] = line[1];
+                secondArr[i - 1] = line[0];
+            }
         }
-
+        System.out.println(String.join(" ", firstArr));
+       System.out.println(String.join(" ", secondArr));
 
     }
+
 }
+
+
