@@ -1,7 +1,16 @@
 package FUND.P05Lecture;
 
+import java.util.Scanner;
+
 public class P11MultiplicationTable2 {
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
 
+        int num = Integer.parseInt(scanner.nextLine());
+
+        for (int i = 1; i <= 10; i++) {
+            int product = num * i;
+            System.out.printf("%d X %d = %d%n", num, i, product);
+        }
     }
 }

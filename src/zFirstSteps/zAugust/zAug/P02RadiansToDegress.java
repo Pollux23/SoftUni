@@ -1,4 +1,4 @@
-package zAugLec.zAugust.zAug;
+package zFirstSteps.zAugust.zAug;
 
 import java.util.Scanner;
 
