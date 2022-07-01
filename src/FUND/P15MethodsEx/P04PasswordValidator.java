@@ -1,15 +1,10 @@
-package FUND.P188MidExam;
+package FUND.P15MethodsEx;
 
 import java.util.Scanner;
 
-public class P2 {
+public class P04PasswordValidator {
     public static void main(String[] args) {
-
         Scanner scanner = new Scanner(System.in);
-
-
-double a = - 10;
-        System.out.printf("%.0f");
 
 
     }
