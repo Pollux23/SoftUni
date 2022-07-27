@@ -1,4 +1,4 @@
-package FUND.P20ObjectsAndClasses;
+package FUND.P21ObjectsAndClasses;
 
 import java.time.LocalDate;
 import java.util.Scanner;

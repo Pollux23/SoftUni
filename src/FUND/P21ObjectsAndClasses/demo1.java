@@ -1,4 +1,4 @@
-package FUND.P20ObjectsAndClasses;
+package FUND.P21ObjectsAndClasses;
 
 import java.util.Random;
 import java.util.Scanner;

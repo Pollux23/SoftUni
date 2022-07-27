@@ -11,7 +11,7 @@ public class P03PrintingTriangle {
     }
 
     public static void printTriangle(int n){
-        for (int i = 1; i <= n; i++) {
+        for (int i = 1; i <= n; i++) {       //for (int i = 1; i < = n; i++) {
             printLine(1, i);
         }
 

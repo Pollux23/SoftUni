@@ -1,9 +1,7 @@
-package FUND.P09Ex;
+package FUND.P26BitwiseOpeartions;
 
 public class demo {
     public static void main(String[] args) {
-
-
 
     }
 }
